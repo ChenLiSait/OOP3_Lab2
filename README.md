@@ -1,4 +1,4 @@
-# Java Sorting Exercises – OOP3 Lab
+# OOP3 Lab 2: Comparing Objects, Searching and Sorting
 
 ## 👩‍💻 Authors
 
@@ -13,17 +13,23 @@
 
 ### Exercise 1
 
-javac -d bin src/exercise1/\*.java
+```bash
+javac -d bin src/exercise1/*.java
 java -cp bin exercise1.Driver
+```
 
-### Exercise 2 –
+### Exercise 2
 
-javac -d bin src/exercise2/\*.java
+```bash
+javac -d bin src/exercise2/*.java
 java -cp bin exercise2.Driver
+```
 
-### Exercise 3 –
+### Exercise 3
 
-javac -d bin src/exercise3/\*.java
+```bash
+javac -d bin src/exercise3/*.java
 java -cp bin exercise3.Driver b
+```
 
-Only the b option (Bubble Sort) is implemented at this time. Other options (i, s, q) are placeholders for future expansion.
+> Only the b option (Bubble Sort) is implemented at this time. Other options (i, s, q) are placeholders for future expansion.
