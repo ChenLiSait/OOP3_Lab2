@@ -1,14 +1,16 @@
 package exercise1;
-//import exercise1.StudentAgeComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-
+/**
+ * This class demonstrates the use of Comparable and Comparator interfaces
+ * to sort a list of Student objects by name and age.
+ */
 public class Driver {
 
     public static void main(String[] args) {
-        
+
         ArrayList<Student> studs = new ArrayList<>();
         studs.add(new Student("Smith", 34));
         studs.add(new Student("Johnson", 21));

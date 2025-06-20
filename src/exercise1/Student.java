@@ -1,5 +1,10 @@
 package exercise1;
 
+/**
+ * This class represents a Student with a name and age.
+ * It implements Comparable to allow sorting by name.
+ * It also provides a toString method for easy representation.
+ */
 public class Student implements Comparable<Student> {
     private String name;
     private int age;
@@ -24,6 +29,6 @@ public class Student implements Comparable<Student> {
 
     @Override
     public String toString() {
-        return "Name: "+ name + " , Age: " + age + ";";
+        return "Name: " + name + " , Age: " + age + ";";
     }
 }
